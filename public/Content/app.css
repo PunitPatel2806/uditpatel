@@ -1,0 +1,90 @@
+/*
+Author: Punit Patel
+Date Completed: April 9 2020
+Student ID: 100734638
+*/
+.input-group-addon:first-child
+{
+    border-right: 0;
+}
+
+.input-group-addon
+{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 4xpx; 
+}
+
+.input-group-addon .fa
+{
+    font-size: 18px;
+}
+
+.input-group .form-control
+{
+    position:relative;
+    z-index: 2;
+    float:left;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#mobile{
+    height: 500px;
+}
+
+.carousel-inner{
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    text-align: center;
+    margin-left:230px
+}
+.jumbotron{
+    margin-top: -370px;
+}
+#phpimg{
+    margin-top: -130px;
+
+}
+#dharti{
+    height: 200px;
+    width: 225px;
+}
+
+#htmlimg{
+    margin-top: -130px;
+    height: 460px;
+    overflow: hidden;
+}
+
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+    border-radius: .3rem;
+}
+
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+    width: 100%;
+}
+
+#logout
+{
+    display: none;
+}

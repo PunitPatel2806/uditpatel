@@ -1,0 +1,48 @@
+/* CONTROLLERS SECTION */
+module.exports.displayHome = (res) =>
+{
+  res.render('index', 
+    { 
+      title: 'Home'
+    });
+}
+
+module.exports.displayAbout = (res) =>
+{
+  res.render('index',
+  {
+    title: 'About'
+  });
+}
+
+module.exports.displayProducts = (res) =>
+{
+  res.render('index',
+  {
+    title: 'Projects'
+  });
+}
+
+module.exports.displayServices = (res) =>
+{
+  res.render('index',
+  {
+    title: 'Services'
+  });
+}
+
+module.exports.displayContact = (res) =>
+{
+  res.render('index',
+  {
+    title: 'Contact'
+  });
+}
+
+module.exports.displayLogin = (res) =>
+{
+  res.render('index',
+  {
+    title: 'Login'
+  });
+}
